@@ -39,14 +39,17 @@
                             <div class="invalid-feedback" data-sb-feedback="name:required">El DNI es obligatorio.</div>
                         </div>
                         <!-- Tipo Usuario input-->
-                        <div class="dropdown mb-3">
-                            <button class="btn btn-success dropdown-toggle" type="button" id="tipoUsuario" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Tipo Usuario
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="tipoUsuario">
-                                <a class="dropdown-item" href="#">Particulares y autónomos</a>
-                                <a class="dropdown-item" href="#">Empresa</a>
-                                <a class="dropdown-item" href="#">Administrador de Fincas</a>
+                        <div style="text-align:center">
+                            <!-- Tipo Usuario -->
+                            <div class="btn-group btn-lg px-4 mb-5 me-sm-3">
+                                <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                                    Tipo Usuario
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
+                                    <li><a class="dropdown-item" href="#">Particulares y Autónomos</a></li>
+                                    <li><a class="dropdown-item" href="#">Empresa</a></li>
+                                    <li><a class="dropdown-item" href="#">Administrador de Fincas</a></li>
+                                </ul>
                             </div>
                         </div>
                         <!-- Email address input-->
